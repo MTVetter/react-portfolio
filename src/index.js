@@ -7,7 +7,7 @@ import * as serviceWorker from './serviceWorker';
 
 import CalciteThemeProvider from 'calcite-react/CalciteThemeProvider';
 import { 
-    BrowserRouter as Router,
+    HashRouter as Router,
     Route,
     Link,
     NavLink

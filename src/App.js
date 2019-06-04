@@ -14,7 +14,7 @@ import TopNav, {
   TopNavLink
 } from 'calcite-react/TopNav';
 import Avatar from 'calcite-react/Avatar';
-import Michael from "./images/baseball.jpg";
+import Michael from "./images/cropped2.jpg";
 
 import {
   BrowserRouter as Router,
