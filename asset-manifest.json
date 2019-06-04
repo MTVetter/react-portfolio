@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.246131b9.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.1ba5619a.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.1ba5619a.chunk.js.map",
+    "runtime~main.js": "/react-portfolio/static/js/runtime~main.f974a8eb.js",
+    "runtime~main.js.map": "/react-portfolio/static/js/runtime~main.f974a8eb.js.map",
+    "static/css/2.266e55a5.chunk.css": "/react-portfolio/static/css/2.266e55a5.chunk.css",
+    "static/js/2.51015596.chunk.js": "/react-portfolio/static/js/2.51015596.chunk.js",
+    "static/js/2.51015596.chunk.js.map": "/react-portfolio/static/js/2.51015596.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "precache-manifest.a02d761b10a7c1c3ef3afa6f208b51df.js": "/react-portfolio/precache-manifest.a02d761b10a7c1c3ef3afa6f208b51df.js",
+    "service-worker.js": "/react-portfolio/service-worker.js",
+    "static/css/2.266e55a5.chunk.css.map": "/react-portfolio/static/css/2.266e55a5.chunk.css.map",
+    "static/css/main.246131b9.chunk.css.map": "/react-portfolio/static/css/main.246131b9.chunk.css.map",
+    "static/media/DOTD.png": "/react-portfolio/static/media/DOTD.3eb1dd0b.png",
+    "static/media/HGAC.png": "/react-portfolio/static/media/HGAC.affe852b.png",
+    "static/media/HurricanePreparedness-thumbnail.png": "/react-portfolio/static/media/HurricanePreparedness-thumbnail.274f440a.png",
+    "static/media/baseball.jpg": "/react-portfolio/static/media/baseball.017adb84.jpg",
+    "static/media/bikeroute.png": "/react-portfolio/static/media/bikeroute.1ba4f0bb.png",
+    "static/media/chaseDeposits.PNG": "/react-portfolio/static/media/chaseDeposits.5f518fb9.PNG",
+    "static/media/exploreBaseballStadiums.PNG": "/react-portfolio/static/media/exploreBaseballStadiums.8a787185.PNG",
+    "static/media/projectSystems.PNG": "/react-portfolio/static/media/projectSystems.03caefa9.PNG",
+    "static/media/veterans.PNG": "/react-portfolio/static/media/veterans.c328f868.PNG"
+  }
+}
