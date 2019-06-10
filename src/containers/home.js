@@ -13,6 +13,7 @@ import Chase from "../images/chaseDeposits.PNG";
 import Bike from "../images/bikeroute.png";
 import Hurricane from "../images/HurricanePreparedness-thumbnail.png";
 import Projects from "../images/projectSystems.PNG";
+import BHR from "../images/BHR.PNG";
 
 class Home extends Component{
     render() {
@@ -21,9 +22,18 @@ class Home extends Component{
                 <h2>Hi! I'm Michael. I'm a GIS developer and cartographer.</h2>
                 <p>I enjoy creating cartographic products and creating new GIS applications.</p>
                 <br/>
-                <h4>Recent Works:</h4>
+                <h4 className="font">Recent Works:</h4>
                 <Row>
-                    <Col sm={4}>
+                    <Col sm={4} className="font">
+                        <Card border="primary" sytle={{width: "18rem"}}>
+                            <Card.Img variant="top" src={BHR} />
+                            <Card.Body>
+                                <Card.Title>Basin Highlight Report</Card.Title>
+                                <Button variant="primary" block href="https://datalab.h-gac.com/development/BHR_app" target="_blank">Take a Look!</Button>
+                            </Card.Body>
+                        </Card>
+                    </Col>
+                    <Col sm={4} className="font">
                         <Card border="primary" style={{width: "18rem"}}>
                             <Card.Img variant="top" src={Baseball} />
                             <Card.Body>
@@ -32,7 +42,7 @@ class Home extends Component{
                             </Card.Body>
                         </Card>
                     </Col>
-                    <Col sm={4}>
+                    <Col sm={4} className="font">
                         <Card border="primary" style={{width: "18rem"}}>
                             <Card.Img variant="top" src={Veterans} />
                             <Card.Body>
@@ -41,7 +51,10 @@ class Home extends Component{
                             </Card.Body>
                         </Card>
                     </Col>
-                    <Col sm={4}>
+                </Row>
+                <br/>
+                <Row>
+                    <Col sm={4} className="font">
                         <Card border="primary" style={{width: "18rem"}}>
                             <Card.Img variant="top" src={Chase} />
                             <Card.Body>
@@ -50,10 +63,7 @@ class Home extends Component{
                             </Card.Body>
                         </Card>
                     </Col>
-                </Row>
-                <br/>
-                <Row>
-                    <Col sm={4}>
+                    <Col sm={4} className="font">
                         <Card border="warning" style={{width: "18rem"}}>
                             <Card.Img variant="top" src={Bike} />
                             <Card.Body>
@@ -62,7 +72,7 @@ class Home extends Component{
                             </Card.Body>
                         </Card>
                     </Col>
-                    <Col sm={4}>
+                    <Col sm={4} className="font">
                         <Card border="warning" style={{width: "18rem"}}>
                             <Card.Img variant="top" src={Hurricane} />
                             <Card.Body>
@@ -71,7 +81,10 @@ class Home extends Component{
                             </Card.Body>
                         </Card>
                     </Col>
-                    <Col sm={4}>
+                </Row>
+                <br />
+                <Row>
+                    <Col sm={4} className="font">
                         <Card border="primary" style={{width: "18rem"}}>
                             <Card.Img variant="top" src={Projects} />
                             <Card.Body>

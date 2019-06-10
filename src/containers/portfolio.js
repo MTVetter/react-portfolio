@@ -16,6 +16,7 @@ import Chase from "../images/chaseDeposits.PNG";
 import Bike from "../images/bikeroute.png";
 import Hurricane from "../images/HurricanePreparedness-thumbnail.png";
 import Projects from "../images/projectSystems.PNG";
+import BHR from "../images/BHR.PNG";
 
 
 const StyledHR = styled.hr`
@@ -29,7 +30,21 @@ class Portfolio extends Component{
                 <h1>Portfolio</h1>
                 <br/>
                 <Row>
-                    <Col>
+                    <Col className="font">
+                        <h4>Basin Highlight Report Interactive Map</h4>
+                        <Image src={BHR} fluid />
+                        <p><b>Tools Used:</b> ArcGIS for JavaScript</p>
+                        <p>Each watershed contains river, creeks, or lakes that flow within their boundaries. When a user clicks on the map, the watersheds will be filtered
+                            to show only the watershed that contains the user's mouse click. A popup box will display to show the major tributaries, areas of concern, and
+                            plans of the selected watershed. The plans section of the popup contains links to the plans associated with the watershed. There are also links
+                            to another interactive web application and a PDF showing a quick summary of the water quality of the watershed.
+                        </p>
+                        <Button variant="outline-primary" size="lg" href="https://datalabs.h-gac.com/development/BHR_app" target="_blank">Take a Look!</Button>
+                    </Col>
+                </Row>
+                <StyledHR />
+                <Row>
+                    <Col className="font">
                         <h4>Explore Baseball Stadiums</h4>
                         <Image src={Baseball} fluid />
                         <p><b>Tools Used:</b> jQuery, Leaflet, D3, geoJSON</p>
@@ -43,7 +58,7 @@ class Portfolio extends Component{
                 </Row>
                 <StyledHR />
                 <Row>
-                    <Col>
+                    <Col className="font">
                         <h4>Veterans Across America</h4>
                         <Image src={Veterans} fluid />
                         <p><b>Tools Used:</b> jQuery, D3</p>
@@ -56,7 +71,7 @@ class Portfolio extends Component{
                 </Row>
                 <StyledHR />
                 <Row>
-                    <Col>
+                    <Col className="font">
                         <h4>Chase Deposits Over Time</h4>
                         <Image src={Chase} fluid />
                         <p><b>Tools Used:</b> jQuery, Leaflet, geoJSON</p>
@@ -69,7 +84,7 @@ class Portfolio extends Component{
                 </Row>
                 <StyledHR />
                 <Row>
-                    <Col>
+                    <Col className="font">
                         <h4>Southern Africa Bike Route</h4>
                         <Image src={Bike} fluid />
                         <p><b>Tools Used:</b> Photoshop, Illustrator, ArcMap</p>
@@ -81,7 +96,7 @@ class Portfolio extends Component{
                 </Row>
                 <StyledHR />
                 <Row>
-                    <Col>
+                    <Col className="font">
                         <h4>Hurricane Preparedness</h4>
                         <Image src={Hurricane} fluid />
                         <p><b>Tools Used:</b> Illustrator, ArcMap</p>
@@ -94,7 +109,7 @@ class Portfolio extends Component{
                 </Row>
                 <StyledHR />
                 <Row>
-                    <Col>
+                    <Col className="font">
                         <h4>DOTD Projects</h4>
                         <Image src={Projects} fluid />
                         <p><b>Tools Used:</b> ArcGIS for JavaScript API, ESRI Linear Referencing API, ESRI REST API, jQuery, jQuery UI</p>
