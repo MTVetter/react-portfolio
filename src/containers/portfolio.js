@@ -43,6 +43,9 @@ class Portfolio extends Component{
                         </p>
                         <Button variant="outline-primary" size="lg" href="https://mtvetter.github.io/Restaurants" target="_blank">Take a Look!</Button>
                     </Col>
+                </Row>
+                <StyledHR />
+                <Row>
                     <Col className="font">
                         <h4>Basin Highlight Report Interactive Map</h4>
                         <Image src={BHR} fluid />
