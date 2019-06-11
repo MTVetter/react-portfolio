@@ -14,6 +14,7 @@ import Bike from "../images/bikeroute.png";
 import Hurricane from "../images/HurricanePreparedness-thumbnail.png";
 import Projects from "../images/projectSystems.PNG";
 import BHR from "../images/BHR.PNG";
+import Restaurants from "../images/restaurants.PNG";
 
 class Home extends Component{
     render() {
@@ -21,11 +22,21 @@ class Home extends Component{
             <Container>
                 <h2>Hi! I'm Michael. I'm a GIS developer and cartographer.</h2>
                 <p>I enjoy creating cartographic products and creating new GIS applications.</p>
+                <p><b>NOTE:</b> Items in blue are interactive applications while items in orange are static maps.</p>
                 <br/>
                 <h4 className="font">Recent Works:</h4>
                 <Row>
                     <Col sm={4} className="font">
-                        <Card border="primary" sytle={{width: "18rem"}}>
+                        <Card border="primary" style={{width: "18rem"}}>
+                            <Card.Img variant="top" src={Restaurants} />
+                            <Card.Body>
+                                <Card.Title>Restaurants</Card.Title>
+                                <Button variant="primary" block href="https://mtvetter.github.io/Restaurants" target="_blank">Take a Look!</Button>
+                            </Card.Body>
+                        </Card>
+                    </Col>
+                    <Col sm={4} className="font">
+                        <Card border="primary" style={{width: "18rem"}}>
                             <Card.Img variant="top" src={BHR} />
                             <Card.Body>
                                 <Card.Title>Basin Highlight Report</Card.Title>
@@ -42,6 +53,9 @@ class Home extends Component{
                             </Card.Body>
                         </Card>
                     </Col>
+                </Row>
+                <br/>
+                <Row>
                     <Col sm={4} className="font">
                         <Card border="primary" style={{width: "18rem"}}>
                             <Card.Img variant="top" src={Veterans} />
@@ -51,9 +65,6 @@ class Home extends Component{
                             </Card.Body>
                         </Card>
                     </Col>
-                </Row>
-                <br/>
-                <Row>
                     <Col sm={4} className="font">
                         <Card border="primary" style={{width: "18rem"}}>
                             <Card.Img variant="top" src={Chase} />
@@ -72,15 +83,6 @@ class Home extends Component{
                             </Card.Body>
                         </Card>
                     </Col>
-                    <Col sm={4} className="font">
-                        <Card border="warning" style={{width: "18rem"}}>
-                            <Card.Img variant="top" src={Hurricane} />
-                            <Card.Body>
-                                <Card.Title>Hurricane Infographic</Card.Title>
-                                <Button variant="warning" block href="https://mtvetter.github.io/assets/MVetter_LongformInfographic.png" target="_blank">Take a Look!</Button>
-                            </Card.Body>
-                        </Card>
-                    </Col>
                 </Row>
                 <br />
                 <Row>
@@ -90,6 +92,15 @@ class Home extends Component{
                             <Card.Body>
                                 <Card.Title>Project Systems</Card.Title>
                                 <Button variant="primary" block href="https://mtvetter.github.io/ProjectSystems" target="_blank">Take a Look!</Button>
+                            </Card.Body>
+                        </Card>
+                    </Col>
+                    <Col sm={4} className="font">
+                        <Card border="warning" style={{width: "18rem"}}>
+                            <Card.Img variant="top" src={Hurricane} />
+                            <Card.Body>
+                                <Card.Title>Hurricane Infographic</Card.Title>
+                                <Button variant="warning" block href="https://mtvetter.github.io/assets/MVetter_LongformInfographic.png" target="_blank">Take a Look!</Button>
                             </Card.Body>
                         </Card>
                     </Col>

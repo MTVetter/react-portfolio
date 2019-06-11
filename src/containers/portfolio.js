@@ -17,6 +17,7 @@ import Bike from "../images/bikeroute.png";
 import Hurricane from "../images/HurricanePreparedness-thumbnail.png";
 import Projects from "../images/projectSystems.PNG";
 import BHR from "../images/BHR.PNG";
+import Restaurants from "../images/restaurants.PNG";
 
 
 const StyledHR = styled.hr`
@@ -30,6 +31,18 @@ class Portfolio extends Component{
                 <h1>Portfolio</h1>
                 <br/>
                 <Row>
+                    <Col className="font">
+                        <h4>Restaurants Interactive Map</h4>
+                        <Image src={Restaurants} fluid />
+                        <p><b>Tools Used:</b> ArcGIS for JavaScript</p>
+                        <p>My wife and I have a hard time remembering the different restaurants that we want to try around Houston. So I created this interactive application.
+                            The application contains the different restaurants that we said we wanted to visit. The restaurants are represented by a point. The point is colored
+                            based on whether we have already eaten at the restaurant. If a user clicks on the point, a popup window will appear that has a brief description of
+                            the restaurant along with the restaurant's website. The popup also has two custom actions. The first custom action gives the user directions from
+                            their current location to the restaurant. The second custom action displays the menu for the restaurant.
+                        </p>
+                        <Button variant="outline-primary" size="lg" href="https://mtvetter.github.io/Restaurants" target="_blank">Take a Look!</Button>
+                    </Col>
                     <Col className="font">
                         <h4>Basin Highlight Report Interactive Map</h4>
                         <Image src={BHR} fluid />
