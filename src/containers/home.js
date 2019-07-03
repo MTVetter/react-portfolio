@@ -15,6 +15,7 @@ import Hurricane from "../images/HurricanePreparedness-thumbnail.png";
 import Projects from "../images/projectSystems.PNG";
 import BHR from "../images/BHR.PNG";
 import Restaurants from "../images/restaurants.PNG";
+import Population from "../images/popOutPopulation.PNG";
 
 class Home extends Component{
     render() {
@@ -26,6 +27,15 @@ class Home extends Component{
                 <br/>
                 <h4 className="font">Recent Works:</h4>
                 <Row>
+                    <Col sm={4} className="font">
+                        <Card border="primary" style={{width: "18rem"}}>
+                            <Card.Img variant="top" src={Population} />
+                            <Card.Body>
+                                <Card.Title>County Stats and Info</Card.Title>
+                                <Button variant="primary" block href="https://mtvetter.github.io/PopOutPopulation" target="_blank">Take a Look!</Button>
+                            </Card.Body>
+                        </Card>
+                    </Col>
                     <Col sm={4} className="font">
                         <Card border="primary" style={{width: "18rem"}}>
                             <Card.Img variant="top" src={Restaurants} />
@@ -44,6 +54,9 @@ class Home extends Component{
                             </Card.Body>
                         </Card>
                     </Col>
+                </Row>
+                <br/>
+                <Row>
                     <Col sm={4} className="font">
                         <Card border="primary" style={{width: "18rem"}}>
                             <Card.Img variant="top" src={Baseball} />
@@ -53,9 +66,6 @@ class Home extends Component{
                             </Card.Body>
                         </Card>
                     </Col>
-                </Row>
-                <br/>
-                <Row>
                     <Col sm={4} className="font">
                         <Card border="primary" style={{width: "18rem"}}>
                             <Card.Img variant="top" src={Veterans} />
@@ -74,6 +84,9 @@ class Home extends Component{
                             </Card.Body>
                         </Card>
                     </Col>
+                </Row>
+                <br />
+                <Row>
                     <Col sm={4} className="font">
                         <Card border="warning" style={{width: "18rem"}}>
                             <Card.Img variant="top" src={Bike} />
@@ -83,9 +96,6 @@ class Home extends Component{
                             </Card.Body>
                         </Card>
                     </Col>
-                </Row>
-                <br />
-                <Row>
                     <Col sm={4} className="font">
                         <Card border="primary" style={{width: "18rem"}}>
                             <Card.Img variant="top" src={Projects} />

@@ -18,6 +18,7 @@ import Hurricane from "../images/HurricanePreparedness-thumbnail.png";
 import Projects from "../images/projectSystems.PNG";
 import BHR from "../images/BHR.PNG";
 import Restaurants from "../images/restaurants.PNG";
+import Population from "../images/popOutPopulation.PNG";
 
 
 const StyledHR = styled.hr`
@@ -30,6 +31,19 @@ class Portfolio extends Component{
             <Container>
                 <h1>Portfolio</h1>
                 <br/>
+                <Row>
+                    <Col className="font">
+                        <h4>County Stats and Info</h4>
+                        <Image src={Population} fluid />
+                        <p><b>Tools Used:</b> D3 and JavaScript</p>
+                        <p>I saw an application that had the same data transition as this application and wanted to figure out how to create the transition. The <a href="https://petrichor.studio/2018/01/whatsyourvoteworth/">application </a>
+                         was created by Sarah Bell and Jacob Wasilkowski. Jacob created a little blog about how he created the transition which I was able to use to develop an application
+                         with the same transition. Using data of counties around the Houston area, I was able to display the population totals after a user selected a county.
+                        </p>
+                        <Button variant="outline-primary" size="lg" href="https://mtvetter.github.io/PopOutPopulation" target="_blank">Take a Look!</Button>
+                    </Col>
+                </Row>
+                <StyledHR />
                 <Row>
                     <Col className="font">
                         <h4>Restaurants Interactive Map</h4>
@@ -53,7 +67,8 @@ class Portfolio extends Component{
                         <p>Each watershed contains river, creeks, or lakes that flow within their boundaries. When a user clicks on the map, the watersheds will be filtered
                             to show only the watershed that contains the user's mouse click. A popup box will display to show the major tributaries, areas of concern, and
                             plans of the selected watershed. The plans section of the popup contains links to the plans associated with the watershed. There are also links
-                            to another interactive web application and a PDF showing a quick summary of the water quality of the watershed.
+                            to another interactive web application and a PDF showing a quick summary of the water quality of the watershed. This application was created as
+                            a part of a larger application describing the water conditions for waterways around the Houston area.
                         </p>
                         <Button variant="outline-primary" size="lg" href="https://datalabs.h-gac.com/development/BHR_app" target="_blank">Take a Look!</Button>
                     </Col>
