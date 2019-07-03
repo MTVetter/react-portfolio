@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import './App.css';
 import styled from 'styled-components';
 
-import Header from './containers/Header';
 import Resume from './containers/resume';
 import Portfolio from './containers/portfolio';
 import Home from "./containers/home";

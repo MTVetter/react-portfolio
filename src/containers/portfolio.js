@@ -2,10 +2,8 @@ import React, { Component } from "react";
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Container from "react-bootstrap/Container";
-import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import Image from "react-bootstrap/Image";
-import ResponsiveEmbed from "react-bootstrap/ResponsiveEmbed";
 
 import styled from 'styled-components';
 

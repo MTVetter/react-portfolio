@@ -4,7 +4,6 @@ import Col from 'react-bootstrap/Col';
 import Container from "react-bootstrap/Container";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
-import ResponsiveEmbed from "react-bootstrap/ResponsiveEmbed";
 
 //Images to use
 import Baseball from "../images/exploreBaseballStadiums.PNG";
