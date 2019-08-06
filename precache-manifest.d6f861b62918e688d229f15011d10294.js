@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d00f38f95c3a7a6db55ebc7b52d39143",
+    "revision": "f8787127fd483fae47f0d3363f2c8052",
     "url": "/react-portfolio/index.html"
   },
   {
-    "revision": "e893b0e8ce7939b4811a",
+    "revision": "d5483069a92e5dead9a0",
     "url": "/react-portfolio/static/css/2.266e55a5.chunk.css"
   },
   {
-    "revision": "e93c7ff536677e1b923c",
-    "url": "/react-portfolio/static/css/main.db9f34b4.chunk.css"
+    "revision": "ba0fc3a892dc2862ee3c",
+    "url": "/react-portfolio/static/css/main.f99a2f5b.chunk.css"
   },
   {
-    "revision": "e893b0e8ce7939b4811a",
-    "url": "/react-portfolio/static/js/2.5cf99c37.chunk.js"
+    "revision": "d5483069a92e5dead9a0",
+    "url": "/react-portfolio/static/js/2.fbfe259e.chunk.js"
   },
   {
-    "revision": "e93c7ff536677e1b923c",
-    "url": "/react-portfolio/static/js/main.a16bbf09.chunk.js"
+    "revision": "ba0fc3a892dc2862ee3c",
+    "url": "/react-portfolio/static/js/main.125deae9.chunk.js"
   },
   {
     "revision": "94872cf7e81768d148a3",
@@ -40,10 +40,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-portfolio/static/media/HurricanePreparedness-thumbnail.274f440a.png"
   },
   {
-    "revision": "017adb84c46888ba367cf3df1b79037d",
-    "url": "/react-portfolio/static/media/baseball.017adb84.jpg"
-  },
-  {
     "revision": "1ba4f0bb7d244d3c7fc18d497aaa61a1",
     "url": "/react-portfolio/static/media/bikeroute.1ba4f0bb.png"
   },
@@ -58,6 +54,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8a78718591dec280eefc1556259b0e2c",
     "url": "/react-portfolio/static/media/exploreBaseballStadiums.8a787185.PNG"
+  },
+  {
+    "revision": "9f75bf321a91f6c05acd51a876ea0f1e",
+    "url": "/react-portfolio/static/media/growthForecast.9f75bf32.PNG"
   },
   {
     "revision": "f2a1c022698e62b3ff71bd48f5638c7f",
