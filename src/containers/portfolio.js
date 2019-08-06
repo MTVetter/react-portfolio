@@ -17,6 +17,7 @@ import Projects from "../images/projectSystems.PNG";
 import BHR from "../images/BHR.PNG";
 import Restaurants from "../images/restaurants.PNG";
 import Population from "../images/popOutPopulation.PNG";
+import Growth from "../images/growthForecast.PNG";
 
 
 const StyledHR = styled.hr`
@@ -29,6 +30,20 @@ class Portfolio extends Component{
             <Container>
                 <h1>Portfolio</h1>
                 <br/>
+                <Row>
+                    <Col className="font">
+                        <h4>Regional Growth Forecast</h4>
+                        <Image src={Growth} fluid />
+                        <p><b>Tools Used:</b> ArcGIS for JavaScript, Bootstrap, and ChartJS</p>
+                        <p>At work, we have an application that displays the forecasted growth for the Houston-Galveston region. The application is nice; however, it doesn't give the user a way
+                            to visualize the data. This application visualizes the forecasted growth based on three boundary layers: Census Tracts, Traffic Analysis Zones, and a
+                            3x3 mile grid. The user can also select the field they want to display along with the year. If the user clicks on a feature, a popup will display with
+                            a chart showing how the data is projected to change.
+                        </p>
+                        <Button variant="outline-primary" size="lg" href="https://mtvetter.github.io/GrowthForecast" target="_blank">Take a Look!</Button>
+                    </Col>
+                </Row>
+                <StyledHR />
                 <Row>
                     <Col className="font">
                         <h4>County Stats and Info</h4>
@@ -101,19 +116,6 @@ class Portfolio extends Component{
                 <StyledHR />
                 <Row>
                     <Col className="font">
-                        <h4>Chase Deposits Over Time</h4>
-                        <Image src={Chase} fluid />
-                        <p><b>Tools Used:</b> jQuery, Leaflet, geoJSON</p>
-                        <p>Every Chase bank keeps a tally of the number of deposits that each branch recieves every year. I took seven years worth of deposits and displayed
-                            the deposits by cities. I chose 21 cities to display the number of deposits. As the user clicks through the years, the points either grow or
-                            shrink based on the total number of deposits.
-                        </p>
-                        <Button variant="outline-primary" size="lg" href="https://mtvetter.github.io/ChaseDeposits" target="_blank">Take a Look!</Button>
-                    </Col>
-                </Row>
-                <StyledHR />
-                <Row>
-                    <Col className="font">
                         <h4>Southern Africa Bike Route</h4>
                         <Image src={Bike} fluid />
                         <p><b>Tools Used:</b> Photoshop, Illustrator, ArcMap</p>
@@ -121,6 +123,20 @@ class Portfolio extends Component{
                             Illustrator was used to place the labels, graph, and scale bar.
                         </p>
                         <Button variant="outline-warning" size="lg" href="https://mtvetter.github.io/assets/bikeroute.png" target="_blank">Take a Look!</Button>
+                    </Col>
+                </Row>
+                <StyledHR />
+                <Row>
+                    <Col className="font">
+                        <h4>DOTD Projects</h4>
+                        <Image src={Projects} fluid />
+                        <p><b>Tools Used:</b> ArcGIS for JavaScript API, ESRI Linear Referencing API, ESRI REST API, jQuery, jQuery UI</p>
+                        <p>Inputting new projects for road construction was an archaic procedure where the user never had to look at a map. This causes problems since the user
+                            thinks they entered information in correctly only to find out later the project wasn't located in the correct location. The application allows the
+                            user to draw the project on the map and the information will be automatically populated for them. If something doesn't look correct, the user can
+                            change any of the values and these values will be kept when the user hits the submit button.
+                        </p>
+                        <Button variant="outline-primary" size="lg" href="https://mtvetter.github.io/ProjectSystems" target="_blank">Take a Look!</Button>
                     </Col>
                 </Row>
                 <StyledHR />
@@ -139,18 +155,17 @@ class Portfolio extends Component{
                 <StyledHR />
                 <Row>
                     <Col className="font">
-                        <h4>DOTD Projects</h4>
-                        <Image src={Projects} fluid />
-                        <p><b>Tools Used:</b> ArcGIS for JavaScript API, ESRI Linear Referencing API, ESRI REST API, jQuery, jQuery UI</p>
-                        <p>Inputting new projects for road construction was an archaic procedure where the user never had to look at a map. This causes problems since the user
-                            thinks they entered information in correctly only to find out later the project wasn't located in the correct location. The application allows the
-                            user to draw the project on the map and the information will be automatically populated for them. If something doesn't look correct, the user can
-                            change any of the values and these values will be kept when the user hits the submit button.
+                        <h4>Chase Deposits Over Time</h4>
+                        <Image src={Chase} fluid />
+                        <p><b>Tools Used:</b> jQuery, Leaflet, geoJSON</p>
+                        <p>Every Chase bank keeps a tally of the number of deposits that each branch recieves every year. I took seven years worth of deposits and displayed
+                            the deposits by cities. I chose 21 cities to display the number of deposits. As the user clicks through the years, the points either grow or
+                            shrink based on the total number of deposits.
                         </p>
-                        <Button variant="outline-primary" size="lg" href="https://mtvetter.github.io/ProjectSystems" target="_blank">Take a Look!</Button>
+                        <Button variant="outline-primary" size="lg" href="https://mtvetter.github.io/ChaseDeposits" target="_blank">Take a Look!</Button>
                     </Col>
                 </Row>
-                <StyledHR />
+                <br />
                 {/* <Row>
                     <Col sm={4}>
                         <Card border="primary" style={{width: "18rem"}}>

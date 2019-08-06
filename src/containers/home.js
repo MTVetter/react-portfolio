@@ -8,13 +8,13 @@ import Button from "react-bootstrap/Button";
 //Images to use
 import Baseball from "../images/exploreBaseballStadiums.PNG";
 import Veterans from "../images/veterans.PNG";
-import Chase from "../images/chaseDeposits.PNG";
 import Bike from "../images/bikeroute.png";
 import Hurricane from "../images/HurricanePreparedness-thumbnail.png";
 import Projects from "../images/projectSystems.PNG";
 import BHR from "../images/BHR.PNG";
 import Restaurants from "../images/restaurants.PNG";
 import Population from "../images/popOutPopulation.PNG";
+import Growth from "../images/growthForecast.PNG";
 
 class Home extends Component{
     render() {
@@ -26,6 +26,15 @@ class Home extends Component{
                 <br/>
                 <h4 className="font">Recent Works:</h4>
                 <Row>
+                    <Col sm={4} className="font">
+                        <Card border="primary" style={{width: "18rem"}}>
+                            <Card.Img variant="top" src={Growth} />
+                            <Card.Body>
+                                <Card.Title>Regional Growth Forcast</Card.Title>
+                                <Button variant="primary" block href="https://mtvetter.github.io/GrowthForecast" target="_blank">Take a Look!</Button>
+                            </Card.Body>
+                        </Card>
+                    </Col>
                     <Col sm={4} className="font">
                         <Card border="primary" style={{width: "18rem"}}>
                             <Card.Img variant="top" src={Population} />
@@ -44,6 +53,9 @@ class Home extends Component{
                             </Card.Body>
                         </Card>
                     </Col>
+                </Row>
+                <br/>
+                <Row>
                     <Col sm={4} className="font">
                         <Card border="primary" style={{width: "18rem"}}>
                             <Card.Img variant="top" src={BHR} />
@@ -53,9 +65,6 @@ class Home extends Component{
                             </Card.Body>
                         </Card>
                     </Col>
-                </Row>
-                <br/>
-                <Row>
                     <Col sm={4} className="font">
                         <Card border="primary" style={{width: "18rem"}}>
                             <Card.Img variant="top" src={Baseball} />
@@ -71,15 +80,6 @@ class Home extends Component{
                             <Card.Body>
                                 <Card.Title>Veterans Across America</Card.Title>
                                 <Button variant="primary" block href="https://mtvetter.github.io/VeteransAcrossAmerica/" target="_blank">Take a Look!</Button>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                    <Col sm={4} className="font">
-                        <Card border="primary" style={{width: "18rem"}}>
-                            <Card.Img variant="top" src={Chase} />
-                            <Card.Body>
-                                <Card.Title>Chase Deposits</Card.Title>
-                                <Button variant="primary" block href="https://mtvetter.github.io/ChaseDeposits/" target="_blank">Take a Look!</Button>
                             </Card.Body>
                         </Card>
                     </Col>
