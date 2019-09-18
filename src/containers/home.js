@@ -9,12 +9,12 @@ import Button from "react-bootstrap/Button";
 import Baseball from "../images/exploreBaseballStadiums.PNG";
 import Veterans from "../images/veterans.PNG";
 import Bike from "../images/bikeroute.png";
-import Hurricane from "../images/HurricanePreparedness-thumbnail.png";
 import Projects from "../images/projectSystems.PNG";
 import BHR from "../images/BHR.PNG";
 import Restaurants from "../images/restaurants.PNG";
 import Population from "../images/popOutPopulation.PNG";
 import Growth from "../images/growthForecast.PNG";
+import BCycle from "../images/bcycleStations.PNG";
 
 class Home extends Component{
     render() {
@@ -26,6 +26,15 @@ class Home extends Component{
                 <br/>
                 <h4 className="font">Recent Works:</h4>
                 <Row>
+                    <Col sm={4} className="font">
+                        <Card border="primary" style={{width: "18rem"}}>
+                            <Card.Img variant="top" src={BCycle} />
+                            <Card.Body>
+                                <Card.Title>Houston BCycle Stations</Card.Title>
+                                <Button variant="primary" block href="https://mtvetter.github.io/BcycleStations" target="_blank">Take a Look!</Button>
+                            </Card.Body>
+                        </Card>
+                    </Col>
                     <Col sm={4} className="font">
                         <Card border="primary" style={{width: "18rem"}}>
                             <Card.Img variant="top" src={Growth} />
@@ -44,6 +53,9 @@ class Home extends Component{
                             </Card.Body>
                         </Card>
                     </Col>
+                </Row>
+                <br/>
+                <Row>
                     <Col sm={4} className="font">
                         <Card border="primary" style={{width: "18rem"}}>
                             <Card.Img variant="top" src={Restaurants} />
@@ -53,9 +65,6 @@ class Home extends Component{
                             </Card.Body>
                         </Card>
                     </Col>
-                </Row>
-                <br/>
-                <Row>
                     <Col sm={4} className="font">
                         <Card border="primary" style={{width: "18rem"}}>
                             <Card.Img variant="top" src={BHR} />
@@ -74,6 +83,9 @@ class Home extends Component{
                             </Card.Body>
                         </Card>
                     </Col>
+                </Row>
+                <br />
+                <Row>
                     <Col sm={4} className="font">
                         <Card border="primary" style={{width: "18rem"}}>
                             <Card.Img variant="top" src={Veterans} />
@@ -83,9 +95,6 @@ class Home extends Component{
                             </Card.Body>
                         </Card>
                     </Col>
-                </Row>
-                <br />
-                <Row>
                     <Col sm={4} className="font">
                         <Card border="warning" style={{width: "18rem"}}>
                             <Card.Img variant="top" src={Bike} />
@@ -101,15 +110,6 @@ class Home extends Component{
                             <Card.Body>
                                 <Card.Title>Project Systems</Card.Title>
                                 <Button variant="primary" block href="https://mtvetter.github.io/ProjectSystems" target="_blank">Take a Look!</Button>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                    <Col sm={4} className="font">
-                        <Card border="warning" style={{width: "18rem"}}>
-                            <Card.Img variant="top" src={Hurricane} />
-                            <Card.Body>
-                                <Card.Title>Hurricane Infographic</Card.Title>
-                                <Button variant="warning" block href="https://mtvetter.github.io/assets/MVetter_LongformInfographic.png" target="_blank">Take a Look!</Button>
                             </Card.Body>
                         </Card>
                     </Col>

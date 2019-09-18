@@ -18,6 +18,7 @@ import BHR from "../images/BHR.PNG";
 import Restaurants from "../images/restaurants.PNG";
 import Population from "../images/popOutPopulation.PNG";
 import Growth from "../images/growthForecast.PNG";
+import BCycle from "../images/bcycleStations.PNG";
 
 
 const StyledHR = styled.hr`
@@ -30,6 +31,21 @@ class Portfolio extends Component{
             <Container>
                 <h1>Portfolio</h1>
                 <br/>
+                <Row>
+                    <Col className="font">
+                        <h4>Houston BCycle Stations</h4>
+                        <Image src={BCycle} fluid />
+                        <p><b>Tools Used:</b> ArcGIS for JavaScript</p>
+                        <p>I wanted to map the locations of the different BCycle stations around the Houston area. BCycle provides a json files that has the information about every station
+                            in the city. The problem with the json file is that the file isn't easily able to be geocoded on to a map. I was able to create a graphics layer from the json
+                            file and joined the graphics with a json file that identifies how many bikes are available at the stations. I added a search widget that highlights the
+                            closest BCycle station to the searched address. Once the user finds the closest BCycle station, they can turn on a layer that displays existing
+                            bikeways. This allows the user to find a safe roadway to ride the bike.
+                        </p>
+                        <Button variant="outline-primary" size="lg" href="https://mtvetter.github.io/BcycleStations" target="_blank">Take a Look!</Button>
+                    </Col>
+                </Row>
+                <StyledHR />
                 <Row>
                     <Col className="font">
                         <h4>Regional Growth Forecast</h4>
@@ -63,7 +79,8 @@ class Portfolio extends Component{
                         <Image src={Restaurants} fluid />
                         <p><b>Tools Used:</b> ArcGIS for JavaScript</p>
                         <p>My wife and I have a hard time remembering the different restaurants that we want to try around Houston. So I created this interactive application.
-                            The application contains the different restaurants that we said we wanted to visit. The restaurants are represented by a point. The point is colored
+                            The application contains the different restaurants that we said we wanted to visit along with a list of the top 100 restaurants around Houston. 
+                            The restaurants are represented by a point. The point is colored
                             based on whether we have already eaten at the restaurant. If a user clicks on the point, a popup window will appear that has a brief description of
                             the restaurant along with the restaurant's website. The popup also has two custom actions. The first custom action gives the user directions from
                             their current location to the restaurant. The second custom action displays the menu for the restaurant.
